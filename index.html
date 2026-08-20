@@ -40,17 +40,31 @@
   </script>
 </head>
 <body>
+  <div class="skyline" aria-hidden="true">
+    <svg viewBox="0 0 1600 560" preserveAspectRatio="xMidYMax slice">
+      <g class="skyline-strokes">
+        <path pathLength="1" d="M0 474H74v-54h50v54h38V369h55v105h42v-76h44v76h47V342h23v-55h16v55h27v132h41v-92h65v92h39V330l27-74 27 74v144h44V291h22v-93h14v-54h13v54h16v93h23v183h38V355h68v119h45V287h25v-76h19v76h25v187h45v-94h49v94h44V326h20v-46h16v46h22v148h48v-118h62v118h47v-71h52v71h72" />
+        <path pathLength="1" class="tower-detail" d="M588 330l54-132 54 132M615 268l54 46m-69 0 67-62m-25-54v276M879 291l32-93 32 93m-32-147v330M1115 326l58-46m-38 0 58 46" />
+        <path pathLength="1" class="harbour" d="M0 492c155-13 245 10 375 0s252-14 383 0 235 11 360-2 250-7 382 3" />
+        <path pathLength="1" class="junk-boat" d="M1227 442h132l-20 28h-88zm61-4v-91m3 7c39 17 55 46 58 76h-58zm-7 2c-34-15-52-35-56-61h56z" />
+        <path pathLength="1" class="harbour-small" d="M145 514c62-8 123 8 187 0m773 9c78-12 151 9 229-1" />
+      </g>
+    </svg>
+  </div>
+
   <main class="page-shell">
     <section class="hero" aria-labelledby="page-title">
-      <div class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 64 64" role="img">
-          <rect x="10" y="12" width="34" height="24" rx="7" transform="rotate(-12 27 24)"></rect>
-          <rect x="20" y="28" width="34" height="24" rx="7" transform="rotate(10 37 40)"></rect>
+      <div class="brand-mark">
+        <svg viewBox="0 0 52 52" role="img" aria-label="FlatStack">
+          <path class="logo-house" d="M18 19V11.5L26 5l8 6.5V19h-5v-5h-6v5z"></path>
+          <path class="logo-layer logo-layer-top" d="M8 24l18-6 18 6-18 6z"></path>
+          <path class="logo-layer logo-layer-middle" d="M8 31l18 6 18-6v5l-18 6-18-6z"></path>
+          <path class="logo-layer logo-layer-bottom" d="M8 40l18 6 18-6v4l-18 6-18-6z"></path>
         </svg>
       </div>
 
       <p class="eyebrow">Hong Kong property search</p>
-      <h1 id="page-title">FlatStack</h1>
+      <h1 id="page-title"><span>Flat</span><b>Stack</b></h1>
       <p class="tagline">Searches the stacks, so you don’t have to.</p>
 
       <div class="copy">
